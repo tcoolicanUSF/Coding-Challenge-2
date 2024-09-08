@@ -22,7 +22,7 @@ let bills = [430, 40, 275];
 const tips = bills.map(bills => calculateTip(bills))
 console.log("corresponding stips for bills of $430, $40, and $275 :",tips)
 let totals = bills.map(bills=> calculateTip(bills) + bills)
-console.log('The totals of each bill with tips will be $(totals)')
+console.log(`The totals of each bill with tips will be ${totals}`)
 
 
 
