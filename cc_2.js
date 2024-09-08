@@ -11,10 +11,14 @@ console.log("Total: $" + total);
 console.log(`The bill was $${bill}, the tip was $${tip}, and the total value is $${total}`);
 
 //Create a function
-function calculateTip(bill) {
-    return bill * (bill > 50 ? 0.15 : 0.20);
-}
+function calculateTip (bill) {
+   let TipPercent = (bill >= 50 && bill<= 300) ? 0.15 : 0.20;
+   return bill * TipPercent
+}   
 calculateTip(100)
+
+
+
 
 
 
