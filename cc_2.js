@@ -7,5 +7,11 @@ console.log("Bill: $" + bill);
 console.log("Tip: $" + tip);
 console.log("Total: $" + total);
 
+//Output details
+console.log(`The bill was $${bill}, the tip was $${tip}, and the total value is $${total}`);
+
+
+
+
 
 
